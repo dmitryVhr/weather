@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+@import './normalize.scss';
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+}
+body,
+html {
+    min-height: 100%;
+}
+body {
+    font-family: "Open Sans", serif;
+    margin: 0;
+    // background: rgb(47, 47, 153);
+    // background: linear-gradient(25deg, rgba(47, 47, 153, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
