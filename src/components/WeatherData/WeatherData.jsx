@@ -5,9 +5,9 @@ export default function WeatherData() {
   const weatherData = useSelector((state) => state.weather.weatherData);
 
   return (
-    <div className="infoWeath">
+    <div className="weather-data">
       {weatherData.city && (
-        <div>
+        <div className="weather-data__list">
           <p>{`Погода: ${weatherData.weather}`}</p>
           <p>{`Температура: ${weatherData.temp} ℃`}</p>
           <p>{`Местоположение: ${weatherData.city}, ${weatherData.country}`}</p>

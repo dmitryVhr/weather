@@ -17,14 +17,17 @@ export default function Form() {
   };
 
   return (
-    <form onSubmit={submitForm}>
+    <form className="weather-form" onSubmit={submitForm}>
       <input
+        className="weather-form__input"
         type="text"
         value={city}
         onChange={changeInput}
         placeholder="Город"
       />
-      <button type="submit">Узнать погоду</button>
+      <button className="weather-form__btn" type="submit">
+        Узнать погоду
+      </button>
     </form>
   );
 }

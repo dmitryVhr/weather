@@ -7,10 +7,10 @@ function Weather() {
   return (
     <div className="wrapper">
       <div className="main">
-        <div className="info">
+        <div className="title-block">
           <Info />
         </div>
-        <div className="form">
+        <div className="weather-block">
           <Form />
           <WeatherData />
         </div>

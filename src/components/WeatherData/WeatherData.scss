@@ -1,9 +1,9 @@
-.infoWeath {
+.weather-data {
   font-size: 20px;
   color: #113a65;
 }
 
-.infoWeath div p {
+.weather-data__list p {
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 1280px) {
-  .infoWeath {
+  .weather-data {
     font-size: 16px;
   }
 }
